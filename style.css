@@ -1,7 +1,56 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
 body {
-    background-color: whitesmoke;
-    text-align: center;
+    background-color: #F5F5DC;
     font-family: "Open Sans", sans-serif;
+    color: #004225;
+    
+}
+
+header {
+    display: flex;
+    background-color: #FFB000;
+    height: 7rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    color:#004225;
+    text-align: center;
+}
+
+nav ul {
+    display:flex;
+    justify-content:space-around;
+    width: 70%;
+    list-style: none;
+}
+
+#categories {
+    margin-top: 1rem;
+}
+
+#movieranking {
+    margin-top: 1rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+    width: 50%;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding:5px;
+    color:#004225;
 }
 
 table {
@@ -9,9 +58,8 @@ table {
     margin-right: auto;
 }
 
-ul {
-    margin-left: auto;
-    margin-right: auto;
+#logo {
+    width: 7rem;
 }
 
 div.home-section {
@@ -19,11 +67,65 @@ div.home-section {
 }
 
 ul.myul {
-    display: inline-block;
-    text-align: left;
+    display:flex;
+    justify-content:space-between;
+    width: 50%;
+    list-style: none;
+    padding-left: 25%;
+    padding-top: 1rem;
 }
 
-a img {
+#introParagraph {
+    padding: 20px;
+
+}
+
+button {
+    padding:5px;
+    background-color: #FFCF9D;
+    border: 1px solid #FFCF9D;
+    font-size: 1rem;
+    color: #004225;
+    border-radius: 5px;
+    margin: 7px;
+}
+
+.catButton {
+    font-size: 1.5rem;
+    background-color: #FFB000;
+}
+
+img {
+    border-radius: 7px;
+}
+
+#homeImage {
+    width: 100%;
+}
+
+.catImg {
+
     height: 385px;
 }
 
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #FFB000;
+    margin-top: 20px;
+}
+
+#allTime {
+    margin-top: 2rem;
+}
+
+#favList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    
+}
+
+a {
+    padding: 10px;
+}
