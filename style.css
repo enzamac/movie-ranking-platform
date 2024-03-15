@@ -134,3 +134,10 @@ footer {
 a {
     padding: 10px;
 }
+
+@media (max-width: 480px){
+    #favList {
+        flex-direction: column;
+        }
+}
+
